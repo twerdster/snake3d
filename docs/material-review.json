@@ -1,0 +1,37 @@
+{
+  "reviewed_on": "2026-11-15",
+  "report": {
+    "path": "docs/report.pdf",
+    "pages": 6,
+    "sha256": "aa00a25ee391b96b75ebb31b23ae77aa07b33b47fe09ce9f67747b67f48f317d",
+    "text_extracted_and_reviewed": true,
+    "all_pages_raster_rendered_and_visually_reviewed": true,
+    "embedded_attachments_found": 0,
+    "javascript_open_actions_or_embedded_media_findings": 0,
+    "review_notes": "Academic author/supervisor/lecturer attribution, laboratory logos, game/editor screenshots and diagrams. No credentials, account dashboards, private contact details or signing material identified. Original metadata retained. No redaction required.",
+    "original_bytes_preserved": true
+  },
+  "image": {
+    "path": "assets/project-preview.png",
+    "sha256": "1a96fba3d328f29beb98b6e924de985839dbb46df2b26c7a1b6117e7f9d6c093",
+    "width": 490,
+    "height": 482,
+    "visual_review": "Historical game artwork; no people, account screens or private contact details identified.",
+    "original_bytes_preserved": true
+  },
+  "scope_limit": "A document/image review does not establish software licensing, application safety, buildability or current hardware compatibility.",
+  "editorial_review": {
+    "reviewer": "Claude",
+    "completed_on": "2026-11-15",
+    "mode": "Actual read-only review with tools disabled",
+    "scope": "README prose and source/date/award/runtime/license implications, supplied with verified project/report/notice facts",
+    "feedback_applied": [
+      "Historical-hardware badge labeling",
+      "Explicit report attribution for gameplay",
+      "Dated official report HTTP404 observation",
+      "Unverified current video playback stated",
+      "Neutral distinction from unrelated projects"
+    ],
+    "factual_suggestions_checked": "Gameplay and screenshots checked against all six report pages; final-presentation wording and lab name checked against the official project page. No application execution by the reviewer is claimed."
+  }
+}

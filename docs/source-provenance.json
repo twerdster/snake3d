@@ -1,0 +1,65 @@
+{
+  "project": "Snake3D",
+  "students": [
+    "Sapir Eltanani",
+    "Simona Gluzman"
+  ],
+  "supervisor": "Aaron Wetzler",
+  "institution": "Geometric Image Processing Laboratory, Technion",
+  "project_record_year": 2016,
+  "date_scope": "2016 laboratory project listing and June2016 PDF metadata; exact completion date not established",
+  "source_status": "documentation_recovered",
+  "source_files": 0,
+  "source_recovery_scope": "Official project page and report, scoped public web/GitHub searches and local archive filename search; no related original source or executable recovered. This is not a claim that no source exists elsewhere.",
+  "artifacts": [
+    {
+      "path": "assets/project-preview.png",
+      "source_url": "https://gip.cs.technion.ac.il/img/3DSnake/Capture.png",
+      "retrieved_from": "https://gip.cs.technion.ac.il/img/3DSnake/Capture.png",
+      "retrieved_on": "2026-11-15",
+      "bytes": 129197,
+      "sha256": "1a96fba3d328f29beb98b6e924de985839dbb46df2b26c7a1b6117e7f9d6c093",
+      "modified": false
+    },
+    {
+      "path": "docs/report.pdf",
+      "source_url": "https://gip.cs.technion.ac.il/files/3DSnake/Snake3D-Documentation.pdf",
+      "retrieved_from": "https://web.archive.org/web/20170919004837id_/http://gip.cs.technion.ac.il:80/files/3DSnake/Snake3D-Documentation.pdf",
+      "retrieved_on": "2026-11-15",
+      "bytes": 984483,
+      "sha256": "aa00a25ee391b96b75ebb31b23ae77aa07b33b47fe09ce9f67747b67f48f317d",
+      "modified": false
+    }
+  ],
+  "report": {
+    "pages": 6,
+    "archive_capture_utc": "2017-09-19 00:48:37",
+    "current_official_download": {
+      "checked_on": "2026-11-15",
+      "http_status": 404
+    },
+    "metadata_creation_date": "D:20160618194754+03'00'",
+    "metadata_modification_date": "D:20160621130441+02'00'"
+  },
+  "official_project_page": {
+    "url": "https://gip.cs.technion.ac.il/last-projects-2016-6.html",
+    "checked_on": "2026-11-15",
+    "retrieved_sha256": "58aa9e1feed4c7005ae593988297dafedf735bd156422a4bf67ccfc700dce038"
+  },
+  "recognition": {
+    "kind": "special citation certificate",
+    "ceremony_date": "2017-07-03",
+    "announcement_date": "2017-07-04",
+    "source_url": "https://www.cs.technion.ac.il/news/view-new.php?nwid=944",
+    "qualification": "Not described as an Amdocs Best Project win.",
+    "retrieved_sha256": "be1db9570bef7742c87ceebd4936345b9be08f5bb3085fb6ef4d6485f63060a3"
+  },
+  "presentation": {
+    "url": "https://www.youtube.com/watch?v=6O5-z4Ul1i8",
+    "source": "Linked by the official project page",
+    "video_bundled": false,
+    "current_playability_independently_verified": false
+  },
+  "license_scope": "No explicit general reuse license found in the recovered materials. Existing authorship/asset terms retained; no blanket software license assigned.",
+  "runtime_validation": "None; archival text, raster, link and hash review only."
+}
