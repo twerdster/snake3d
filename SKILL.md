@@ -1,11 +1,13 @@
-# Maintaining Snake3D
+# Maintain Snake3D
 
-Read SUMMARY.md, this file, README.md and the source-provenance/material-review records before changes.
+Read SUMMARY.md first, then this file, README.md, PROJECT_RECORD.md and relevant source/guides/validation.
 
-This is an archival repository. Preserve the exact original PDF/image bytes, public source links and student/supervisor attribution. Keep 2016 project evidence separate from the 2017 special citation. Do not confuse this VR project with the older Snake Game 3D by Amir Blum or other games with the same name.
+Preserve exact original report/artwork bytes and author/recognition wording. New demo source has a scoped MIT license; no blanket license is added to historical materials. Test simulation changes with node updated/check-demo.mjs and actual browser controls. Do not claim a restored original, hardware compatibility or original-result reproduction.
 
-No original application code or executable has been recovered. The report's Unity, C#, hand-input and VR descriptions do not establish a current build or hardware test. Do not add source-availability, runnable-demo or modern-port claims without recovering and validating the relevant software. New! and Updated and ported for modern hardware navigation applies only if an actual separately labeled software update is later implemented.
+## Documentation and demo workflow
 
-Before publishing additional material, inspect extracted text, raster screenshots, metadata, embedded files and active PDF actions for private information or executable content. Review SDK/vendor and authorship terms separately. Public hosting does not imply a general reuse license. Keep private correspondence and recovery working files outside this repository.
+Keep README brief: project purpose, author/supervisor credits, current progress, one factual visual, Updated demo and linked setup/evidence/rights. Preserve original work and distinguish recovered execution, new implementations, recorded playback and illustrative reconstructions. Long commands, conversion issues and logs belong in linked guides. Existing updated-guide heading anchors must keep working. The user authorized shortening the root README on 2026-11-17; PROJECT_RECORD.md retains its prior contents, and existing original/ material remains unchanged.
 
-For documentation changes, verify local links, image decoding, PDF page count and source hashes. Record completed editorial reviews accurately; do not imply reviewer execution of the historical application. Before each commit, review and synchronize SUMMARY.md and SKILL.md with the actual state and preserve attribution.
+For static demos serve `updated/demo/` over localhost or HTTPS; use Python 3’s HTTP server with that directory. Check real controls, downloads where available, failure handling and desktop/phone-width layout. Use updated/demo/VALIDATION.json for recorded scope and updated/demo/README.md for exact commands. Physical/live-camera/microphone and cross-browser results must not be inferred from desktop automation. Existing native/model apps keep their own build/test/deploy workflows.
+
+When Claude review is requested, invoke it on the actual draft/facts, apply useful feedback after checking the code and retain a truthful review record. Before every commit reread/synchronize SUMMARY.md and this file, check links/images/Markdown and original hashes/pins, inspect the diff and staged files, preserve licensing/attribution and use Aaron Wetzler’s canonical commit identity. Publish normally; never rewrite history without explicit authorization. No private correspondence, access keys, student identifiers or machine-specific setup belongs in public files.

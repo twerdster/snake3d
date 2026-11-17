@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-17",
+  "implementation": "New 3D Snake demonstration",
+  "browser": "Chrome on macOS; isolated automated profile",
+  "viewports_css_px": [
+    [
+      1280,
+      940
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    "collect first food through real simulation",
+    "pause simulation",
+    "restart resets score",
+    "speed control",
+    "390px layout has no horizontal overflow",
+    "no JavaScript page errors"
+  ],
+  "operator_checks": 6,
+  "limitations": "New code from the project description, not recovered Unity source. No Leap Motion, RealSense, VR headset or historical B-spline body mesh. Six focused simulation checks cover pickup/growth, deterministic food, 3D steering, wall/self collision and reset.",
+  "physical_devices_tested": false,
+  "live_audio_or_camera_tested": false,
+  "cross_browser_tested": false
+}

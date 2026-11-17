@@ -1,21 +1,19 @@
-# Snake3D: archival project context
+# Snake3D: current maintenance context
 
-Snake3D is the 2016 GIP laboratory VR Snake project by Sapir Eltanani and Simona Gluzman, supervised by Aaron Wetzler. It is distinct from Amir Blum's 2010 Snake Game 3D project and unrelated projects with similar names.
+Read this file, then SKILL.md, README.md and linked implementation/validation guides.
 
-## Recovered materials
+## Original project and preservation
 
-The repository preserves the original GIP project artwork and six-page project report. The current official report URL returns HTTP 404; the unchanged PDF was recovered from the Internet Archive's September 19, 2017 capture. Its creation/modification metadata dates to June 2016. The official GIP page links the presentation video; no video is bundled.
+2016 GIP VR Snake project by Sapir Eltanani and Simona Gluzman, supervised by Aaron Wetzler. Preserve the original six-page report, artwork and source-provenance/material-review records. July 2017 special citation is separate from Amdocs Best Project awards. Unrelated to Amir Blum’s 2010 Snake Game 3D.
 
-The report describes Unity/Visual Studio and C#, Blender assets, hand control through Leap Motion and RealSense, Oculus Rift viewing, a dynamic cylinder/cone mesh and a B-spline path. These are documented historical capabilities, not current execution results.
+## Current work — 2026-11-17
 
-## Status and recognition
+Original Unity/C#, assets, SDK integration and executable remain missing. A new separately labeled browser game implements 3D steering, food/growth and wall/body collisions with keyboard/touch controls. It does not implement VR, Leap Motion/RealSense or the historical B-spline body mesh.
 
-`source_status` is `documentation_recovered`; `source_files` is 0. No original Unity project, C# source, application build or SDK package was recovered in the scoped public search. No installation, build, hardware test or modernization was performed. There is no updated software section or New! badge.
+Aaron requested concise natural README prose and a runnable demo in each Updated section. A real tools-disabled Claude review and follow-up inform the wording; factual suggestions are checked against source and records. The previous full README is preserved as PROJECT_RECORD.md. Existing updated-guide anchors remain available; lengthy implementation/recovery records are linked rather than repeated in the main README.
 
-Keep the 2016 project record separate from the special citation announced on July 4, 2017 for the July 3 ceremony. The official notice identifies a special citation certificate, not an Amdocs Best Project win.
+## Checks and maintenance
 
-## Preservation and review
+Preserve exact original report/artwork bytes and author/recognition wording. New demo source has a scoped MIT license; no blanket license is added to historical materials. Test simulation changes with node updated/check-demo.mjs and actual browser controls. Do not claim a restored original, hardware compatibility or original-result reproduction.
 
-`docs/source-provenance.json` records retrieval URLs, archive capture, dates, byte counts, SHA-256 hashes and recovery scope. `docs/material-review.json` records six-page text/raster inspection, image inspection and PDF active-content/attachment checks. Original PDF and image bytes are unchanged; no redaction was required. An actual read-only Claude editorial review completed; its factual suggestions were checked against the original materials and useful wording corrections applied. No blanket code or asset license is assigned.
-
-Read SKILL.md before changes. Keep original authorship, recognition wording and source/runtime distinctions intact.
+New static demonstration checks are in updated/demo/VALIDATION.json when present. Actual Chrome desktop/390-pixel interactions were checked; a narrow viewport is not a physical device. No hardware, live microphone/camera recognition or cross-browser coverage is added. Review and synchronize SUMMARY.md and SKILL.md before every commit. Keep private evidence, account details and machine paths outside the repository.
